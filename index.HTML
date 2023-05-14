@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive personal portfolio website design tutorail</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="user">
+        <img src="pic.jpg" alt="" />
+        <h3 class="name">Ravi Kumar</h3>
+        <p class="post">Android App Developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education & Skills</a></li>
+          <li><a href="#portfolio">Project</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Ravi Kumar</span></h1>
+      <p>
+        Android App developer, coder. Learning quality skills and work. I want to be a successful developer as I am interested in developing new apps which excite me a lot. I love exploring new technologies and being a practitioner, I like to stay on top of the latest trends
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> Name : </span> Ravi Kumar</h3>
+          <h3><span> Age : </span> 22</h3>
+          <h3><span> Qualification : </span> B.Tech</h3>
+          <h3><span> Post : </span> Android App Developer</h3>
+          <h3><span> Language : </span> Hindi, English</h3>
+          <a href="Resume.pdf"
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>1+</span>
+            <h3>years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>10+</span>
+            <h3>porject completed</h3>
+          </div>
+
+          <div class="box">
+            <span>50+</span>
+            <h3>happy clients</h3>
+          </div>
+
+          <div class="box">
+            <span>10+</span>
+            <h3>awards won</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016</span>
+          <h3>High-school</h3>
+          <p>Kisan Sewak Inter College, Saharanpur<br />- 75.5%</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2018</span>
+          <h3>Intermediate</h3>
+          <p>Kisan Sewak Inter College, Saharanpur<br />- 60.04%</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2022</span>
+          <h3>B.Tech (Information Technology)</h3>
+          <p>Rajkiya Engineering College, Bijnor<br />- 68.65%</p>
+        </div>
+      </div>
+
+      <h1 class="heading">sk<span>ills</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Android Development</h3>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Kotlin</h3>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Google Play Console</h3>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>MVVM Pattern</h3>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Github</h3>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Firebase</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">my <span>project</span></h1>
+      <div class="row1">
+        <div class="column1">
+          <div class="card1">
+            <h3>Urban Rojar App<br />(Based on Kotlin)</h3>
+            <p>
+              This app is used by employer and the youth to build their carrier
+              through jobs. It is one of the safest and fast responding hiring
+              platforms
+            </p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card1">
+            <h3>Store Onboarding App<br />(Client base)</h3>
+            <p>
+              This app is used to onboard the super markets on different apps.
+              We have four clients in this project namely, Grofers(Blinkit),
+              XpressBees, XpressBees Cargo, XB HRMS
+            </p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card1">
+            <h3>XpressForce App <br />(Based on Kotlin)</h3>
+            <p>
+              This project is for a reputed company named , XpressBees.
+              Basically, this is a hiring platform through which youth can apply
+              for jobs and internship in a secured manner.
+            </p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card1">
+            <h3>OneWorld App<br /></h3>
+            <br /><br />
+            <p>
+              It is a delivery-based app through which user books their goods
+              and then delivery man picks their goods and drop on their address.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row1">
+        <div class="column1">
+          <div class="card1">
+            <h3>IsoPronto App<br /></h3>
+            <br /><br />
+            <p>
+              It is a client based app used by some clients namely, North
+              Express, Iberia, Neha, FA and much more....
+            </p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card1">
+            <h3>Large Logic App<br /></h3>
+            <br /><br />
+            <p>
+              This app is for Large Logistic Pvt. Ltd. company used for
+              on-boarding warehouses in four steps create, pending, approve and
+              some also get reject if they are not the authorized one
+            </p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card1">
+            <h3>Notes Taking App<br /></h3>
+            <br /><br />
+            <p>
+              In this project, user can make his prioritized notes with the help
+              of colours like red(low prioritized), yellow(average prioritized)
+              and green(high prioritized) and can do modification later.
+            </p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card1">
+            <h3>Automation In Power Consumption<br /></h3>
+            <p>
+              With the help of this app, user can control their home appliances
+              from anywhere (Like: Light bulbs, Fans, AC, etc...)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="box-container">
+
+            <div class="box">
+                <img src="images/img1.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/img2.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/img3.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/img4.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/img5.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/img6.jpg" alt="">
+            </div>
+
+        </div>-->
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+
+          <div class="info">
+            <a href="mailto:ravikumarit42@gmail.com">
+              <h3><i class="fas fa-envelope"></i> ravikumarit42@gmail.com</h3>
+            </a>
+            <a href="9520886211">
+              <h3><i class="fas fa-phone"></i> 952-088-6211</h3>
+            </a>
+            <a href="9927577974">
+              <h3><i class="fas fa-phone"></i> 992-757-7974</h3>
+            </a>
+            <h3><i class="fas fa-map-marker-alt"></i> New Delhi, India</h3>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="" />
+    </a>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
